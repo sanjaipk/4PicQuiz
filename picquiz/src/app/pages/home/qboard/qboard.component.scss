@@ -1,0 +1,56 @@
+.pq-flex {
+  //  color: #fff;
+    // background-color: #5995da;  /* Blue */
+    padding: 2px 0;
+    display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;
+//   flex-direction: column;
+  align-items: center;    
+  width:100%
+  }
+  
+  .pq-flex-item {
+    border: 1px solid lightgray;  /* For debugging */
+    margin-left: 2px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .pq-charbox{
+    background-color: #ffffff;
+    border-width: 0px 0px 1px 0px;
+    border-color:  grey;  /* For debugging */
+    border-style: solid;
+    text-align: center;
+    margin-left:5px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .pq-confirm {
+    text-align: center;
+  }
+
+  .pq-confirm  {
+    padding: 5px 5px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 2px #999;
+  }
+  
+  .pq-confirm :hover {
+    background-color: #3e8e41
+  }
+  
+  .pq-confirm :active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
