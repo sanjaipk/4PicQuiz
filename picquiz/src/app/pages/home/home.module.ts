@@ -4,11 +4,13 @@ import { HomeComponent } from './home.component';
 import { HomeRoutingModule } from './home.routing';
 import { QboardComponent } from './qboard/qboard.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { TamilkboardComponent } from './tamilkboard/tamilkboard.component';
 
 @NgModule({
   declarations: [
     HomeComponent,
-    QboardComponent
+    QboardComponent,
+    TamilkboardComponent
   ],
   imports: [
     CommonModule,
